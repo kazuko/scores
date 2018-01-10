@@ -11,5 +11,5 @@ if(empty($id)){
 
 $sql="delete from score where id=$id" ;
 $db->query($sql);
-echo "删除成功！<a href='javascript:back();'>返回</a>";
+echo "删除成功！<a href='javascript:back();'>返回</a>" ;
 
