@@ -15,3 +15,4 @@ echo "删除成功！<a href='javascript:back();'>返回</a>" ;
 	echo "删除失败！<a href='javascript:back();'>返回</a>" ; 
 }
 
+$db->close();

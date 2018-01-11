@@ -19,3 +19,4 @@ if($db->query($sql)===TRUE){
 }else{
 	echo '¸üÐÂÊ§°Ü£¡';
 }
+$db->close();

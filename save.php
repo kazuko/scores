@@ -27,5 +27,3 @@ if($result===TRUE){
 }
 
 $db->close();
-
-?>
