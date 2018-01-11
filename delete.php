@@ -8,8 +8,10 @@ if(empty($id)){
 	exit('id不正确');
 }
 
-
 $sql="delete from score where id=$id" ;
-$db->query($sql);
-echo "删除成功！<a href='javascript:back();'>返回</a>" ;
+if($db->query($sql)){
+echo "删除成功！<a href='javascript:back();'>返回</a>" ; 
+}else{
+	echo "删除失败！<a href='javascript:back();'>返回</a>" ; 
+}
 
