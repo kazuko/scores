@@ -32,7 +32,7 @@ $row=$result->fetch_array(1)
 			<td>成绩：<input type="text" name="grade" value="<?=$row['grade']?>"/></td>
 		</tr>
 
-<tr><td><input type="submit" value="更新" /></td></tr>
+<tr><td><input type="submit" value="修改" /></td></tr>
 	</table>
 </form>
 </body>
