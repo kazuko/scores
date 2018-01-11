@@ -1,8 +1,22 @@
 # scores
 
 成绩管理信息系统
+
+给学生做的作业。
+够简单，够入门了吧。
+但是老师居然要求gbk编码，也是有点制造学生的困难啊
+mysql对utf8倒支持不错。gbk要指定编码。
+
+
 一、系统文件目录结构
-    
+    add.php 
+	delete.php
+	edit.php
+	index.php
+	save.php
+	update.php
+	scores.sql
+	
 二、数据库
 1. 打开phpMyAdmin，新建数据库scores；
 2. 字符集(排序规则)选择gbk_chinese_ci；
