@@ -20,7 +20,7 @@ if(empty($stu_num)){
 $sql="insert into score (name,stu_num,grade)values('".$name."','".$stu_num."',".$grade.")" ;
 $result = $db->query($sql);
 if($result===TRUE){
-	echo "成绩增加成功！<a href='index.php'>返回列表页</a>";
+	header("location:index.php"); 
 }else{
 	echo '增加出错！，请返回检查数据！';
 	 

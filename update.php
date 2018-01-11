@@ -15,7 +15,7 @@ $grade=$_POST['grade'];
 
 $sql="update score set name='".$name."',stu_num='".$stu_num."',grade='".$grade."' where id=$id";
 if($db->query($sql)===TRUE){
-	echo "更新成功！<a href='index.php'>返回列表页</a>";
+	header("location:index.php"); 
 }else{
 	echo '更新失败！<a href='index.php'>返回列表页</a>';
 }
