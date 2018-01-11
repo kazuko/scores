@@ -21,15 +21,15 @@ $row=$result->fetch_array(1)
 <form action="update.php" method="post" name="form1">
 	<table>
 		<tr>
-			<td>姓名：<input type="text" name="name" value="<?=$row['name']?>"/> 
-			<input type="hidden" name="id"  value="<?=$id?>" /></td>
+			<td>姓名：<input type="text" name="name" value="<?php echo $row['name']?>"/> 
+			<input type="hidden" name="id"  value="<?php echo $id?>" /></td>
 		
 		</tr>
 		<tr>
-			<td>学号：<input type="text" name="stu_num" value="<?=$row['stu_num']?>"/></td>
+			<td>学号：<input type="text" name="stu_num" value="<?php echo $row['stu_num']?>"/></td>
 		</tr>
 		<tr>
-			<td>成绩：<input type="text" name="grade" value="<?=$row['grade']?>"/></td>
+			<td>成绩：<input type="text" name="grade" value="<?php echo $row['grade']?>"/></td>
 		</tr>
 
 <tr><td><input type="submit" value="修改" /></td></tr>
