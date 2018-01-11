@@ -38,7 +38,7 @@ while($row=$result->fetch_array(MYSQLI_BOTH))
 			<td><?=$row['name']?></td>
 			<td><?=$row['stu_num']?></td>
 			<td><?=$row['grade']?></td>
-			<td><a href="delete.php?id=<?=$row['id']?>">É¾³ý</a> /<a href="edit.php?id=<?=$row['id']?>">±à¼­</td>
+			<td><a href="delete.php?id=<?=$row['id']?>" onclick="if(!confirm('È·¶¨ÒªÉ¾³ýÂð£¿')){return false}" >É¾³ý</a> /<a href="edit.php?id=<?=$row['id']?>">±à¼­</td>
 		</tr>
 <?
 }
