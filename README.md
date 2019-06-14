@@ -37,6 +37,7 @@ mysql对utf8倒支持不错。gbk要指定编码。
  
 1. index.php
 运行程序文件index.php，界面如下图：
+![Image text](https://github.com/kazuko/scores/blob/master/img/20180111214912.png)
 
 
 读取数据库表score中所有数据，并显示在表格中；点击”编辑”超链接到程序edit.php,点击”删除”超链接到程序delete.php。
