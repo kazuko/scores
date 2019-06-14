@@ -17,6 +17,6 @@ $sql="update score set name='".$name."',stu_num='".$stu_num."',grade='".$grade."
 if($db->query($sql)===TRUE){
 	header("location:index.php"); 
 }else{
-	echo '更新失败！<a href='index.php'>返回列表页</a>';
+	echo '更新失败！<a href="index.php">返回列表页</a>';
 }
 $db->close();
